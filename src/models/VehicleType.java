@@ -1,5 +1,6 @@
 package models;
 
-public class VehicleType {
-    public String type;
+public enum VehicleType {
+    TWO_WHEELER,
+    FOUR_WHEELER,
 }

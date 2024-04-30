@@ -1,5 +1,6 @@
 package models;
 
-public class GatesType {
-    public String type;
+public enum GatesType {
+    ENTRY,
+    EXIT,
 }
